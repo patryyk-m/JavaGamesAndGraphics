@@ -86,7 +86,7 @@ public class Part3 extends JFrame {
                 JOptionPane.YES_NO_OPTION);
 
         if (decision == JOptionPane.YES_OPTION) {
-            ImageIcon customImage = new ImageIcon("trs.png"); // Replace 'trs.png' with your image path
+            ImageIcon customImage = new ImageIcon("../images/trs.png"); // Replace 'trs.png' with your image path
             JOptionPane.showMessageDialog(this,
                     "You discover a treasure!",
                     "Outcome",

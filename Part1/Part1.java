@@ -40,9 +40,9 @@ public class Part1 extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         if ("chess".equals(e.getActionCommand())) {
-            launchInternalFrame("Chess Board", "chess.jpg");
+            launchInternalFrame("Chess Board", "../images/chess.jpg");
         } else if ("snakes".equals(e.getActionCommand())) {
-            launchInternalFrame("Snakes and Ladders", "snakes.jpg");
+            launchInternalFrame("Snakes and Ladders", "../images/snakes.jpg");
         }
     }
 
